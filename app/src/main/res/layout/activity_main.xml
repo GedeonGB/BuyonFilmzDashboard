@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingBottom="50dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="34sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:id="@+id/titleDsh"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buyon Filmz Dashboard " />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/rel_linkYou"
+                android:layout_marginTop="26dp"
+                android:layout_below="@+id/titleDsh"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Link for BuyonFilmz Live Games / Football"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/linktxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/editLink"
+                    android:layout_margin="16dp"
+                    android:padding="8dp"
+                    android:layout_below="@+id/linktxt"
+                    android:background="@drawable/bcgg"
+                    android:layout_width="match_parent"
+                    android:textStyle="normal"
+                    android:text="iIuFJiWiN_Q"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:background="@drawable/bcg"
+                android:layout_below="@+id/rel_linkYou"
+                android:elevation="4dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFF"
+                android:onClick="toUplod"
+                android:id="@+id/btn_link"
+                android:drawableEnd="@drawable/ic_file_upload_black_24dp"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Upload for Live Games"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop" />
+
+            <View
+                android:layout_below="@+id/btn_link"
+                android:layout_width="match_parent"
+                android:layout_margin="22dp"
+                android:id="@+id/view_1"
+                android:background="#686868"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/rel_linkfcb"
+                android:layout_marginTop="6dp"
+                android:layout_below="@+id/view_1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Link for BuyonFilmz Functions/ event"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/linkfcbtext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/editLinkfcb"
+                    android:layout_margin="16dp"
+                    android:padding="8dp"
+                    android:layout_below="@+id/linkfcbtext"
+                    android:background="@drawable/bcgg"
+                    android:layout_width="match_parent"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:background="@drawable/bcg"
+                android:layout_below="@+id/rel_linkfcb"
+                android:elevation="4dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFF"
+                android:onClick="toUplodfcb"
+                android:id="@+id/btn_link_fck"
+                android:drawableEnd="@drawable/ic_file_upload_black_24dp"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Upload for Live events"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop" />
+
+
+            <View
+                android:layout_below="@+id/btn_link_fck"
+                android:layout_width="match_parent"
+                android:layout_margin="22dp"
+                android:id="@+id/view_2"
+                android:background="#686868"
+                android:layout_height="1dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginStart="16dp"
+                android:id="@+id/rel_linkRestre"
+                android:layout_marginTop="6dp"
+                android:layout_below="@+id/view_2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Link for BuyonFilmz with Restream"
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif"
+                    android:id="@+id/linkRestre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/editLinkRestre"
+                    android:layout_margin="16dp"
+                    android:padding="8dp"
+                    android:layout_below="@+id/linkRestre"
+                    android:background="@drawable/bcgg"
+                    android:layout_width="match_parent"
+                    android:textStyle="normal"
+                    android:text=""
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:background="@drawable/bcg"
+                android:layout_below="@+id/rel_linkRestre"
+                android:elevation="4dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFF"
+                android:onClick="toUplodfcb"
+                android:drawableEnd="@drawable/ic_file_upload_black_24dp"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="Upload for Restream"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                tools:targetApi="lollipop" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

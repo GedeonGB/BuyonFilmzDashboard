@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "637984363825",
+    "firebase_url": "https://buyon-filmz-tv-default-rtdb.firebaseio.com",
+    "project_id": "buyon-filmz-tv",
+    "storage_bucket": "buyon-filmz-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637984363825:android:a992fa2606d77e4d44cc10",
+        "android_client_info": {
+          "package_name": "com.android.buyonfilmz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637984363825-v1rqhc8vb7r3uf8gueaoia3j0ic8q3oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDssaXx69W8VfsIYRS6DxfSzgdxSdLazA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637984363825-v1rqhc8vb7r3uf8gueaoia3j0ic8q3oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637984363825:android:a497f3c60d2b602c44cc10",
+        "android_client_info": {
+          "package_name": "com.android.buyonfilmzdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637984363825-v1rqhc8vb7r3uf8gueaoia3j0ic8q3oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDssaXx69W8VfsIYRS6DxfSzgdxSdLazA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637984363825-v1rqhc8vb7r3uf8gueaoia3j0ic8q3oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
